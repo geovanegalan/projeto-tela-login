@@ -1,0 +1,112 @@
+/* Cores 
+#6B98F2
+#6C91D9
+#14488C
+#0D4C73
+#5BD9D9 */
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Prata', serif;
+}
+
+body, html {
+    background-color:#6C91D9;
+    height: 100vh;
+    width: 100vw;
+}
+main {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    
+}
+#login {
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.486);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+}
+
+#imagem{
+    background: url(../imagem/ft.jpg) no-repeat;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+}
+
+#formulario {
+    padding: 10px;
+}
+#formulario h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+#formulario p {
+    font-size: 0.8em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+span{
+    color:#14488C;
+    
+}
+.campo {
+   display: flex;
+   justify-content: space-between;
+   padding: 5px 0px;
+   background-color:#14488c83;
+}
+.campo > input {
+  font-size: 0.9em;
+  border-radius: 3px;
+  border: 0px;
+}
+
+form > input[type=submit]{
+    font-size: 1em;
+    width: 100%;
+    height: 35px;
+    background-color:#14488cd5;
+    color: white;;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    margin:10px 0px;
+}
+form > input[type=submit]:hover{
+    background-color: #6C91D9;
+    color:#14488cd5;
+    transition: .3s;
+    cursor: pointer;
+}
+
+button{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: white;
+   border: 1px solid #14488C;
+   border-radius: 5px;
+   color:#14488C;
+   
+}
+button:hover{
+    background-color:#14488c48;
+    color:#14488C;
+    cursor: pointer;
+}
+

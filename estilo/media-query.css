@@ -1,0 +1,66 @@
+/* Cores 
+#6B98F2
+#6C91D9
+#14488C
+#0D4C73
+#5BD9D9 */
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    body{
+        background-image: linear-gradient(to left,#6B98F2,#6C91D9,#14488C );
+    }
+
+    #login{
+        width: 750px;
+        flex-direction: row;
+    }
+    #imagem {
+        width: 500px;
+        height: 700px ;
+        background-size: cover;
+        
+    }
+    #formulario h1 {
+        font-size: 2em;
+    }
+    #formulario p {
+        font-size: 1.2em;
+    }
+
+    .campo{
+        gap: 20px;
+        width: 50;
+    }
+    .campo > input {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    body{
+        background-image: linear-gradient(to left,#6B98F2,#6C91D9,#14488C );
+    }
+    #login{
+        width: 990px;
+        flex-direction: row;
+    }
+    #imagem {
+        width: 500px;
+        height: 700px ;
+        background-size: cover;
+        
+    }
+    #formulario h1 {
+        font-size: 2em;
+    }
+    #formulario p {
+        font-size: 1.2em;
+    }
+    .campo{
+        gap: 20px;
+        width: 50;
+    }
+    .campo > input {
+        width: 100%;
+    }
+}
